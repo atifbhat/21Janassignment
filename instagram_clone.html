@@ -1,0 +1,186 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="instagram_clone.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+
+    <div class="header">
+        <ul>
+            <li id="logo">
+                <a href="http://instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="http://instagram.com">Instagram</a>
+            </li>
+            <li class="search">
+                <input type="text" placeholder="Search" />
+            </li>
+            <li class="search">
+                <i id="btn_heart" class="fa fa-heart one" aria-hidden="true"></i>
+                <i class="fa fa-compass one" aria-hidden="true"></i>
+                <i class="fa fa-user-circle one" aria-hidden="true"></i>
+            </li>
+        </ul>
+
+    </div>
+
+    <div class="main">
+        <div class="header_main">
+            <img id="header_img" src="" />
+            <h4 class="main_user" style="margin-top:6px;"></h4>
+
+
+
+        </div>
+
+
+        <div class="body_main">
+
+            <img onClick="changeColor(this)" class="main_img" src="" />
+
+            <button><i onClick="changeColor(this)" id="btn_heart"class="fa fa-heart-o" aria-hidden="true"></i> </button>
+            <i class="fa fa-comment-o" aria-hidden="true"></i>
+            <i class="fa fa-download" aria-hidden="true"></i>
+            <i id="save" class="fa fa-bookmark-o" aria-hidden="true"></i>
+        </div>
+
+        <div class="main_footer">
+            <h5 class="likes" style="margin-top:5px;margin-left:10px; margin-bottom:0px"></h5>
+            <p class="user" style="margin-top:0px !important;;margin-left:10px;"></p>
+            <p class="paragraph" style="margin-top:0px!important;margin-left:10px;"></p>
+        </div>
+
+
+    </div>
+
+
+
+
+    <!-- <div class="main">
+        <div class="header_main">
+            <img id="header_img" src="" />
+            <h4 class="main_user" style="margin-top:6px;"></h4>
+
+
+
+        </div>
+
+        <div class="body_main">
+
+            <img onClick="changeColor(this)" class="main_img" src="" />
+
+            <button><i onClick="changeColor(this)" id="btn_heart"class="fa fa-heart-o" aria-hidden="true"></i> </button>
+            <i class="fa fa-comment-o" aria-hidden="true"></i>
+            <i class="fa fa-download" aria-hidden="true"></i>
+            <i id="save" class="fa fa-bookmark-o" aria-hidden="true"></i>
+        </div>
+
+        <div class="main_footer">
+            <h5 class="likes" style="margin-top:5px;margin-left:10px; margin-bottom:0px"></h5>
+            <p class="user" style="margin-top:0px !important;;margin-left:10px;"></p>
+            <p class="paragraph" style="margin-top:0px!important;margin-left:10px;"></p>
+        </div>
+
+
+    </div>
+
+ -->
+
+
+
+
+
+
+
+
+    <!-- <div class="main">
+
+        <div class="header_main">
+            <img id="header_img" src="https://images.unsplash.com/photo-1619182597083-17bda72c1d56?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bWFuJTIwZmFjZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" />
+            <h4 style="margin-top:6px;">Virat</h4>
+
+        </div>
+
+        <div class="body_main">
+
+            <img class="main_img" src="https://images.unsplash.com/photo-1471623432079-b009d30b6729?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fHBhcmlzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" />
+
+            <button><i onClick="changeColor(this)" id="btn_heart" class="fa fa-heart-o" aria-hidden="true"></i> </button>
+            <i class="fa fa-comment-o" aria-hidden="true"></i>
+            <i class="fa fa-download" aria-hidden="true"></i>
+            <i id="save" class="fa fa-bookmark-o" aria-hidden="true"></i>
+        </div>
+
+        <div class="main_footer">
+            <h5 style="margin-top:5px;margin-left:10px; margin-bottom:0px">10,100 Likes</h5>
+            <p style="margin: top 3px !important;;margin-left:10px;"><span style="font-weight: bold;">Virat</span> The Palm Jumeirah is an archipelago of artificial islands in Dubai, in the United Arab Emirates, created using land reclamation which extends into the ...!</p>
+        </div>
+
+
+    </div>
+
+
+    <div class="main">
+
+        <div class="header_main">
+            <img id="header_img" src="https://images.unsplash.com/photo-1619182597083-17bda72c1d56?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bWFuJTIwZmFjZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" />
+            <h4 style="margin-top:6px;">VIKAS</h4>
+
+        </div>
+
+        <div class="body_main">
+
+            <img class="main_img" src="https://images.unsplash.com/photo-1503917988258-f87a78e3c995?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHBhcmlzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" />
+
+            <button><i onClick="changeColor(this)" id="btn_heart" class="fa fa-heart-o" aria-hidden="true"></i> </button>
+            <i class="fa fa-comment-o" aria-hidden="true"></i>
+            <i class="fa fa-download" aria-hidden="true"></i>
+            <i id="save" class="fa fa-bookmark-o" aria-hidden="true"></i>
+        </div>
+
+        <div class="main_footer">
+            <h5 style="margin-top:5px;margin-left:10px; margin-bottom:0px">10,100 Likes</h5>
+            <p style="margin: top 3px !important;;margin-left:10px;"><span style="font-weight: bold;">VIKAS</span> The Palm Jumeirah is an archipelago of artificial islands in Dubai, in the United Arab Emirates, created using land reclamation which extends into the ...!</p>
+        </div>
+
+
+    </div>
+
+
+    <div class="main">
+
+        <div class="header_main">
+            <img id="header_img" src="https://images.unsplash.com/photo-1619182597083-17bda72c1d56?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Nnx8bWFuJTIwZmFjZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" />
+            <h4 style="margin-top:6px;">RAINA</h4>
+
+        </div>
+
+        <div class="body_main">
+
+            <img class="main_img" src="https://media.istockphoto.com/photos/the-main-attraction-of-paris-and-all-of-europe-is-the-eiffel-tower-in-picture-id1185953092?b=1&k=20&m=1185953092&s=170667a&w=0&h=piovAtT7yPx3v8ovL64iQZJrfF8VMedyyOLf2AuRSUU=" />
+
+            <button><i onClick="changeColor(this)" id="btn_heart" class="fa fa-heart-o" aria-hidden="true"></i> </button>
+            <i class="fa fa-comment-o" aria-hidden="true"></i>
+            <i class="fa fa-download" aria-hidden="true"></i>
+            <i id="save" class="fa fa-bookmark-o" aria-hidden="true"></i>
+        </div>
+
+        <div class="main_footer">
+            <h5 style="margin-top:5px;margin-left:10px; margin-bottom:0px">10,100 Likes</h5>
+            <p style="margin: top 3px !important;;margin-left:10px;"><span style="font-weight: bold;">RAINA</span> The Palm Jumeirah is an archipelago of artificial islands in Dubai, in the United Arab Emirates, created using land reclamation which extends into the ...!</p>
+        </div>
+
+
+    </div> -->
+
+
+
+
+
+
+    <script src="instagram_clone.js"></script>
+</body>
+
+</html>
